@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.animesplay" name="[B][COLOR white]Animes[/COLOR] [COLOR yellow]Play[/COLOR][/B]" version="1.3" provider-name="Equipe OnePlay"> 
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR chocolate]ADDON DESCONTINUADO[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR chocolate]Infelizmente o addon para o Kodi foi descontinuado, as pessoas só sabem reclamar e ninguém quer ajudar.[/COLOR][/B]</description>
+    <news>
+[B][COLOR chocolate]v1.3 - Descontinuado[/COLOR][/B]
+</news>
+    <platform>all</platform>
+	<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.jpg</screenshot>
+<screenshot>resources/screenshots/movies.jpg</screenshot>
+<screenshot>resources/screenshots/series.jpg</screenshot>
+</assets>
+  </extension>
+</addon>
