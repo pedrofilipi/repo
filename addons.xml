@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	
+<addon id="plugin.video.animesplay" name="[B][COLOR white]Animes[/COLOR] [COLOR yellow]Play[/COLOR][/B]" version="1.3" provider-name="Equipe OnePlay"> 
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR chocolate]ADDON DESCONTINUADO[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR chocolate]Infelizmente o addon para o Kodi foi descontinuado, as pessoas só sabem reclamar e ninguém quer ajudar.[/COLOR][/B]</description>
+    <news>
+[B][COLOR chocolate]v1.3 - Descontinuado[/COLOR][/B]
+</news>
+    <platform>all</platform>
+	<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.jpg</screenshot>
+<screenshot>resources/screenshots/movies.jpg</screenshot>
+<screenshot>resources/screenshots/series.jpg</screenshot>
+</assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.18"
+       name="[COLOR white][B]ADULTOS 18[/B][/COLOR]"
+       version="2.0"
+       provider-name="MEGA TV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  	
+  <extension point="xbmc.addon.metadata">
+    <summary>18</summary>
+    <description>
+        Canais Adultos
+             
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvfogo"
+       name="[B][COLOR chocolate]Glorioso Tv[/COLOR][/B]"
+       version="9.1.0"
+       provider-name="[B][COLOR yellow]Glorioso Tv[/COLOR][/B]">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR chocolate]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR chocolate]Glorioso Tv é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+    <news>
+[B][COLOR chocolate]v1.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+</news>
+    <platform>all</platform>
+	<assets>
+<icon>icon.png</icon>
+<fanart>fanart.jpg</fanart>
+<screenshot>resources/screenshots/home.jpg</screenshot>
+<screenshot>resources/screenshots/movies.jpg</screenshot>
+<screenshot>resources/screenshots/series.jpg</screenshot>
+</assets>
+  </extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Brlive" name="[COLOR white][B]Br[/B][/COLOR][COLOR red][B]Live[/B][/COLOR]" version="2.7" provider-name="Mattos">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" version="0.9.4"/>
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+	<import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+    <import addon="script.module.unidecode" version = "0.4.16" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TV AO VIVO [COLOR yellow]l[/COLOR] IPTV [COLOR yellow]l[/COLOR]</summary>
+    <description lang="en">O autor não é responsável pelo uso deste addon. [B][COLOR white]Br'[/COLOR][/B][COLOR red]Live[/COLOR]
+	
+O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.
+
+[B][COLOR white]Br'[/COLOR][/B][COLOR red]Live[/COLOR] DO MELHOR COM IPTV PARA A SUA CASA [COLOR yellow][B]l[/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.NordesTv" name="[COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]Tv[/B][/COLOR]" version="3.8" provider-name="Equipe NordesTv">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common"/>
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.simple.downloader"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.common.plugin.cache"/>
+    <import addon="script.module.metahandler"/>
+</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NordeTv</summary>
+    <description lang="en">[COLOR yellow]l[/COLOR] TV AO VIVO[COLOR yellow]l[/COLOR] FILMES [COLOR yellow]l[/COLOR] SERIES [COLOR yellow]l[/COLOR] WEB RADIO [COLOR yellow]l[/COLOR] NOVELAS [COLOR yellow]l[/COLOR] DESENHOS [COLOR yellow]l[/COLOR]
+[COLOR yellow]l[/COLOR] Add-on [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR] esta protegido de usso da lei de direitos autorais especificamente a secao 107.[COLOR yellow]l[/COLOR]O autor e responsavel pelo uso deste Add-on. [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR]
+[COLOR yellow]l[/COLOR] O autor nao e de forma alguma afiliado à Kodi, a Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos, [COLOR yellow]l[/COLOR]
+             [COLOR blue][B]Nordes[/B][/COLOR][COLOR white][B]TV[/B][/COLOR]
+[COLOR yellow]l[/COLOR]- DO CINEMA PARA SUA CASA -[COLOR yellow]l[/COLOR]</description>
+    <platform>all</platform>
+<assets>
+	<icon>icon.png</icon>
+	<fanart>fanart.jpg</fanart>
+	<screenshot>resources/screenshots/screenshot000.png</screenshot>
+	<screenshot>resources/screenshots/screenshot001.png</screenshot>
+	<screenshot>resources/screenshots/screenshot002.png</screenshot>
+</assets>
+</extension>
+</addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.FORMIGAtv" name="[COLOR  blue][B]FORMIGA[COLOR  silver][B]tv[/B][/COLOR]" version="4.0" provider-name="TEAMFORMIGAtv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.httplib2"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson"/>
+   </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR  white][B]Sempre[COLOR  blue][B]Atualizando[/B][/COLOR][COLOR  white][B]..[/B][/COLOR]</summary>
+	     <description lang="pt">[B][COLOR cyan]ADDON FORMIGAtv [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</description>
+		 <disclaimer lang="en">FORMIGAtv - Sua Nova Forma De Ver TV</disclaimer>
+    <platform>all</platform>
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.SUPERTV"
+       name="[COLOR yellow][B]SUPERTV[/B][/COLOR]"
+       version="3.3"
+       provider-name="FELIPE">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  
+  	
+  <extension point="xbmc.addon.metadata">
+    <summary>45 991413099</summary>
+    <description>
+        O ADDON SUPERTV OFERECE CANAIS GRATUITOS, SE VOCÊ QUISER UM SISTEMA MELHOR PAGO ENTRE EM CONTATO PELO WHATSAPP 45 991413099
+             
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]" version="5.5" provider-name="Flechanegra">
+  <requires>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+    <description lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+	
+	
+<addon id="plugin.video.KelTecPlay" name="[B][COLOR white]KelTec[/COLOR] [COLOR crimson]Play[/COLOR][/B]" version="2.8" provider-name="Team KelTec">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" version="0.9.4"/>
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+	<import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.livestreamer"/>
+    <import addon="script.module.pyamf"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.addon.signals" version="0.0.1"/>
+    <import addon="script.module.unidecode" version = "0.4.16" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Addon modificado do PlaylistLoader 1.2.0 por Avigdor https://github.com/avigdork/xbmc-avigdork. Nao somos responsaveis por colocar o conteudo online, apenas indexamos. Para sugestoes e report de bugs nossa pagina no FB: [COLOR blue]https://www.facebook.com/groups/KelTec.Media.Play[/COLOR]</summary>
+    <description lang="en">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.
+	
+O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.
+</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+</addons>
