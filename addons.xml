@@ -336,4 +336,238 @@ O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Founda
   </extension>
 </addon>
 
+<addon id="plugin.video.18.matrix" name="[COLOR white][B]ADULTOS 18[/B][/COLOR]" version="1.0.1+matrix.1" provider-name="SUPERTV"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">Canais Adultos</summary>
+	<summary lang="pt">Canais Adultos</summary>
+	<description lang="en">Canais Adultos</description>
+	<description lang="pt">Canais Adultos</description>
+    <disclaimer lang="en">TV é gratis</disclaimer>
+	<disclaimer lang="pt">Contribua com quem configura o seu Computador/TV box/Celular/TV</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Versão Kodi 19
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.BrLive.matrix" name="[COLOR white][B]Br[/B][/COLOR][COLOR red][B]Live[/B][/COLOR]" version="1.0.1+matrix.1" provider-name="BRLIVE"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">TV AO VIVO [COLOR yellow]l[/COLOR] IPTV [COLOR yellow]l[/COLOR]</summary>
+	<summary lang="pt">O autor não é responsável pelo uso deste addon. [B][COLOR white]Br'[/COLOR][/B][COLOR red]Live[/COLOR]</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.
+
+[B][COLOR white]Br'[/COLOR][/B][COLOR red]Live[/COLOR] DO MELHOR COM IPTV PARA A SUA CASA [COLOR yellow][B]l[/COLOR][/B]</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Addon modelo
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.flash_brasil.matrix" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="1.0.1+matrix.1" provider-name="Flechanegra"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+	<summary lang="pt">[B][COLOR chocolate]Glorioso Tv é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] [COLORorange]é um addon da familia K-PT Flechanegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <disclaimer lang="en">Flash Brasil é gratis</disclaimer>
+	<disclaimer lang="pt">Contribua com quem configura o seu Computador/TV box/Celular/TV</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Versão Kodi 19
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.FORMIGAtv.matrix" name="[COLOR  blue][B]FORMIGA[COLOR  silver][B]tv[/B][/COLOR]" version="1.0.1+matrix.1" provider-name="TEAMFORMIGAtv"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">Filmes e Series</summary>
+	<summary lang="pt">[COLOR  white][B]Sempre[COLOR  blue][B]Atualizando[/B][/COLOR][COLOR  white][B]..[/B][/COLOR]</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">[B][COLOR cyan]ADDON FORMIGAtv [/COLOR][/B][B][COLOR white] é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</disclaimer>
+	<disclaimer lang="pt">FORMIGAtv - Sua Nova Forma De Ver TV</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Kodi 19
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.KelTecPlay.matrix" name="[B][COLOR white]KelTec[/COLOR] [COLOR crimson]Play[/COLOR][/B]" version="1.0.1+matrix.1" provider-name="Team KelTec"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">Filmes e Series</summary>
+	<summary lang="pt">Addon modificado do PlaylistLoader 1.2.0 </summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">Addon modificado do PlaylistLoader 1.2.0 por Avigdor https://github.com/avigdork/xbmc-avigdork. Nao somos responsaveis por colocar o conteudo online, apenas indexamos. Para sugestoes e report de bugs nossa pagina no FB: [COLOR blue]https://www.facebook.com/groups/KelTec.Media.Play[/COLOR]</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado à Kodi, à Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Addon modelo
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.NORDESTV.matrix" name="[B]NORDESTV[/B]" version="1.0.1+matrix.1" provider-name="NORDESTV"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">NordesTV é gratuito</summary>
+	<summary lang="pt">NordesTV é gratuito, quem não gostou procure o aplicativo pago do SUPERTV</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi or the XBMC Foundation. This is a non-profit resource.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Addon modelo
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.supertv.matrix" name="SUPERTV" version="1.0.1+matrix.1" provider-name="Felipe"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">WhatsApp: 46 99117 8250</summary>
+	<summary lang="pt">WhatsApp: 46 99117 8250</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">O ADDON SUPERTV OFERECE CANAIS GRATUITOS, SE VOCÊ QUISER UM SISTEMA MELHOR PAGO ENTRE EM CONTATO PELO WHATSAPP 46 991178250.</disclaimer>
+	<disclaimer lang="pt">O ADDON SUPERTV OFERECE CANAIS GRATUITOS, SE VOCÊ QUISER UM SISTEMA MELHOR PAGO ENTRE EM CONTATO PELO WHATSAPP 46 991178250.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Addon modelo
+	</news>
+</extension>
+</addon>
+
+<addon id="plugin.video.tvfogo.matrix" name="[B][COLOR chocolate]Glorioso Tv[/COLOR][/B]" version="1.0.1+matrix.1" provider-name="TV FOGO"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[B][COLOR chocolate]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
+	<summary lang="pt">[B][COLOR chocolate]Glorioso Tv é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">Glorioso TV é gratis</disclaimer>
+	<disclaimer lang="pt">Contribua com quem configura o seu Computador/TV box/Celular/TV</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- [B][COLOR chocolate]v1.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+	</news>
+</extension>
+</addon>
+
 </addons>
