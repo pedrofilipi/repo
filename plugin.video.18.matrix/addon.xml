@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.18.matrix" name="[COLOR white][B]ADULTOS 18[/B][/COLOR]" version="1.0.1+matrix.1" provider-name="SUPERTV"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">Canais Adultos</summary>
+	<summary lang="pt">Canais Adultos</summary>
+	<description lang="en">Canais Adultos</description>
+	<description lang="pt">Canais Adultos</description>
+    <disclaimer lang="en">TV é gratis</disclaimer>
+	<disclaimer lang="pt">Contribua com quem configura o seu Computador/TV box/Celular/TV</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- Versão Kodi 19
+	</news>
+</extension>
+</addon>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tvfogo.matrix" name="[B][COLOR chocolate]Glorioso Tv[/COLOR][/B]" version="1.0.1+matrix.1" provider-name="TV FOGO"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">[B][COLOR chocolate]OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]</summary>
+	<summary lang="pt">[B][COLOR chocolate]Glorioso Tv é apenas um AGREGADOR de links e, assim como o Google.com, apenas agrega e organiza os links externos. Não somos responsáveis pelos arquivos aqui encontrados.[/COLOR][/B]</summary>
+	<description lang="en">Addon for kodi 19</description>
+	<description lang="pt">Addon for kodi 19</description>
+    <disclaimer lang="en">Glorioso TV é gratis</disclaimer>
+	<disclaimer lang="pt">Contribua com quem configura o seu Computador/TV box/Celular/TV</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0.0.matrix.1
+- [B][COLOR chocolate]v1.0 - CORREÇÕES DE SEGURANÇA, OBRIGADO POR USAR NOSSO ADD-ON[/COLOR][/B]
+	</news>
+</extension>
+</addon>
