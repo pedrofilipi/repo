@@ -570,4 +570,33 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
+<addon id="plugin.video.ABERTOS.matrix" name="ABERTOS" version="1.0" provider-name="ALPHAPLAY"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	<summary lang="en">ABERTOS - Fornecido por Alphaplay</summary>
+	<summary lang="pt">ABERTOS - Fornecido por Alphaplay</summary>
+	<description lang="en">Conheça o plano mensal como todos os canais. 46 991178250</description>
+	<description lang="pt">Conheça o plano mensal como todos os canais. 46 991178250</description>
+    <disclaimer lang="en">Os Canais presentes nesse servidor não são pagos mensalmente, contato 41 995993476.</disclaimer>
+	<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou a XBMC Foundation. Este é um recurso sem fins lucrativos.</disclaimer>
+    <platform>all</platform>
+	<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+    </assets>
+	<news>
+v1.0
+- ABERTOS
+	</news>
+</extension>
+</addon>
+
 </addons>
