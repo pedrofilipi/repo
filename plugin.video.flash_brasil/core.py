@@ -1,1 +1,0 @@
-[{"url": "", "fanart": ".\\fanart.jpg", "title": "CANAIS"}]
