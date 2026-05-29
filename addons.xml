@@ -572,7 +572,7 @@ v1.0
   </extension>
 </addon>
 
-<addon id="plugin.video.flash_brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="4.1" provider-name="Flechanegra">
+<addon id="plugin.video.flash_brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="4.2" provider-name="Flechanegra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -587,6 +587,7 @@ v1.0
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
+    <news>Versão 4.2 - Busca e Correção de dependências e estrutura para Kodi 17.6.</news>
   </extension>
 </addon>
 
