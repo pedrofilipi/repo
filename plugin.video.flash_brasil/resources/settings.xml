@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Geral">
+        <setting id="adult_password" type="text" label="Senha para Adultos" default="0000" option="numeric"/>
+    </category>
+</settings>
