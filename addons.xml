@@ -587,9 +587,8 @@ v1.0
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
-    <news>Versão 4.2 - Busca e Correção de dependências e estrutura para Kodi 17.6.</news>
+    <news>Versão 4.2 - Correção de dependências e estrutura para Kodi 17.6.</news>
   </extension>
 </addon>
-
 
 </addons>
